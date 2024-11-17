@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C05E9A61-B26C-5827-C490-A8992C27E6B7" containerWithKeyObject="ED1F9A6A-B501-B7F2-0953-57308EACAA01" localFKIndex="2E2B6253-1477-D7D5-8A18-F6B110F0C68F" name="KartaskiSto_Diler_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 08:05:52 UTC</createdTime>
+<generatorID>0C73E6BC-8852-EAAC-54B0-825FB9C5B4BA</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>Diler</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C05002F-61E0-3FEF-4301-BBE263BC0E18</referredTableID>
+<keyObject>B58457D2-EA91-708D-5B20-48E42D512D88</keyObject>
+<referredKeyID>B58457D2-EA91-708D-5B20-48E42D512D88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZAP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

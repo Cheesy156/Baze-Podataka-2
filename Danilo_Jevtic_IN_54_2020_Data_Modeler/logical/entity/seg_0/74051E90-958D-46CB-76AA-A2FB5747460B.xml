@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74051E90-958D-46CB-76AA-A2FB5747460B" name="KartaskiSto">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:28:57 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_KS" id="8110D1C2-D6BC-27FC-6110-1270E8567D24">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:29:14 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAD_VREME_KS" id="08CD093A-414C-37E0-E95E-7965F2071B77">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:29:30 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_KS" id="C55F770B-6D84-E531-600C-EB99408B36E1">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:29:54 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_KS" id="B71A79A6-A6CE-E0F6-D825-B6C0CAB3C8F5">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:30:13 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZAP" id="A3024BA5-5F56-CCAA-25ED-06C6D443D68E">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 03:31:11 UTC</createdTime>
+<generatorID>0C73E6BC-8852-EAAC-54B0-825FB9C5B4BA</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<referedAttribute>95281922-369E-9D33-2211-F4BB0479408A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C17499C-9863-113D-BE83-CD6E810AADD1" name="KartaskiSto PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:29:29 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8110D1C2-D6BC-27FC-6110-1270E8567D24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

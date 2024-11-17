@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C619FA3-19A9-4E88-DCCD-2B5EC8DF5D51" containerWithKeyObject="4269BAB0-F30E-205C-72AE-77D4DEED5024" localFKIndex="5AC27083-8B33-2B08-4F51-89E3F859DF30" name="PromoAkcija_SlotIgra_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>BD6BEB89-5C4E-9D47-B705-CBC908026F04</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>SlotIgra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B921A35-1AD3-AEF6-3792-0C216515422E</referredTableID>
+<keyObject>4C8D77C9-89B2-D565-CE84-B485EF5DF0AE</keyObject>
+<referredKeyID>4C8D77C9-89B2-D565-CE84-B485EF5DF0AE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_SLOT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

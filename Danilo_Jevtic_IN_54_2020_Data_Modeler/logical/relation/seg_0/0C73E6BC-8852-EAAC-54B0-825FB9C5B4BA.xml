@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RadiNa" directorySegmentName="seg_0" id="0C73E6BC-8852-EAAC-54B0-825FB9C5B4BA">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:40:16 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<sourcePk>2C17499C-9863-113D-BE83-CD6E810AADD1</sourcePk>
+<targetPk>9DA959D6-02C5-C465-2D78-73DA87ABB3F5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74051E90-958D-46CB-76AA-A2FB5747460B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>07E1C868-DF50-5B18-8D40-A086E5FB5CA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

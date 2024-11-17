@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="558386A9-EC8C-FA29-002B-DA4B1BD2CC8B" name="Admin">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>61C22F64-CC6D-C971-D657-A938EED8C1B4</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAP" id="873A8C36-598B-8FF2-41B5-A0CF64B989A0">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>95281922-369E-9D33-2211-F4BB0479408A</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD2A489B-DF2D-9C82-6697-2C2D4DBB042F" referredColumn="08D8EF8C-4ABF-1E83-C0BA-23D55F855015"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA56A588-D459-00E9-978C-2C499C04FC07" name="Admin_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>9DA959D6-02C5-C465-2D78-73DA87ABB3F5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="873A8C36-598B-8FF2-41B5-A0CF64B989A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D246E069-0E90-32DD-5C62-8444B17F7027" name="Admin_Zaposleni_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>2A035552-0056-5416-EC59-2AD2C44A1088</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="873A8C36-598B-8FF2-41B5-A0CF64B989A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

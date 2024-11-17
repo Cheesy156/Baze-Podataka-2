@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75DC1AF0-8CBC-691D-B5B1-1D7EA8BB1361" name="Tiket">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:06:36 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIK" id="ECBC5F77-0028-0990-F130-0953368CD21D">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:06:43 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_KRE_TIK" id="4FC30FED-1E72-498C-E0A1-48738F73A0D6">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:06:56 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_TIK" id="0032331F-6A9B-479C-C7B2-6932B316AD6F">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:07:11 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB9EE243-F9BA-F3ED-7D12-118B5929D338" name="Tiket PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:06:54 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECBC5F77-0028-0990-F130-0953368CD21D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

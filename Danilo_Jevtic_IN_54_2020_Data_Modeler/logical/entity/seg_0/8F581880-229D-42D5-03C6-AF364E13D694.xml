@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F581880-229D-42D5-03C6-AF364E13D694" name="Igrac">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:43:33 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_IGRAC" id="8FBBCCF5-5606-14BF-A884-81E88FA2DF48">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:43:38 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAR" id="9E8AACFB-B274-2536-C003-B450861D5A78">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:44:03 UTC</createdTime>
+<generatorID>9366F4B6-0170-F113-E375-43900B697E8B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<referedAttribute>DD625D04-6734-A8C2-1D55-80FB4B2F7655</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERNAME" id="68E5234E-62E1-F29F-0B1A-E56D593C8689">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:53:40 UTC</createdTime>
+<generatorID>4AFF11A1-D523-14FE-1EC9-2BBEC8536D28</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<referedAttribute>3B3F2B29-C34E-7966-48F5-A62A37DE8981</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="239CC5E3-6BF7-FFFD-2544-44C8D74A3A7A" name="Igrac PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:43:53 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FBBCCF5-5606-14BF-A884-81E88FA2DF48</attributeRef>
+<attributeRef>9E8AACFB-B274-2536-C003-B450861D5A78</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

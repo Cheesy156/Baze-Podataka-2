@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B921A35-1AD3-AEF6-3792-0C216515422E" name="SlotIgra">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>B058F295-D0E3-B554-68E7-30244A1A38D9</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SLOT" id="5EFC5327-84AC-038E-75AB-CBB813A76755">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>2A7AF72A-76C7-5E81-CA3C-9E09016EEC2B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_SLOT" id="E1766AE4-73AB-C62A-1B86-51061DFDA215">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>72E1332D-BC39-F5F3-3E5A-F451A8E207D6</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_ULOG_SLOT" id="7283EFAC-D921-2859-2977-865B312887AB">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>D2732510-33B3-E398-AFBE-2B30268452AE</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAKS_ULOG_SLOT" id="528B6A57-7980-03CA-ECCE-8300C64FF5C8">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8562E420-215B-0AAE-9A03-462A223BEB05</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_SLOT" id="18819CD6-AFD0-F7BA-FED0-3FAC0EFCB9F7">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>72C38197-0354-AC04-DE04-CCFE88840037</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SlotIgra_ID_SLOT" id="0C60E764-C79A-31D8-BA23-6FF1D3F57B77">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>42CC9FDB-EE86-1540-29A6-DE88A9699E99</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE7A7927-F134-BCBE-478E-DC23FD169B23" referredColumn="5EFC5327-84AC-038E-75AB-CBB813A76755"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C8D77C9-89B2-D565-CE84-B485EF5DF0AE" name="SlotIgra_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>3DFCF326-FAEF-DF97-B2F9-F6A8F6369F6C</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EFC5327-84AC-038E-75AB-CBB813A76755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A441A355-9BA2-EE19-8D56-778E5C3C54FE" name="SlotIgra_SlotIgra_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>718B4BC5-C9EE-69CC-29F2-8FDB38CF3E88</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C60E764-C79A-31D8-BA23-6FF1D3F57B77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

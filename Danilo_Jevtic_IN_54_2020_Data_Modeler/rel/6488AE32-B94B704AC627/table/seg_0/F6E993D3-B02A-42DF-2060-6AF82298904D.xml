@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6E993D3-B02A-42DF-2060-6AF82298904D" name="Klijent">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>5B6D4529-6926-CD3E-B86D-B9EDC547D9E6</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERNAME" id="672B0D80-C55A-95F2-1AB3-0E3D825D7439">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>3B3F2B29-C34E-7966-48F5-A62A37DE8981</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME_KLI" id="313C65E4-B891-538B-210B-EEF9503632D7">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>D85CCAE4-C226-732E-25DA-25F562314AA1</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ_KLI" id="AEFE50DC-A189-E2CC-2130-DC0E6C484981">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>FF62D8E6-9B44-2351-29E0-A24BC42DE8E5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_KLI" id="D73D3DA8-9707-1D85-1BD8-18C159EF9423">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>D775A286-46C7-B718-150E-D33EB2E3B62B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="BF938774-8D9C-6812-1235-AF0152230014">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>6EBF5591-6E8F-51E4-2279-58938F8B34F4</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_KRE_KLI" id="DDBF8FB6-04DC-4121-F21F-AB00C8F00564">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>E74C666F-6F5C-DCBB-98B6-5530B6287802</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9445FE05-FF3D-9DD0-AE4D-FBF904C67032" name="Klijent_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>EA57804A-4250-0E9F-2DBE-9330169B0977</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672B0D80-C55A-95F2-1AB3-0E3D825D7439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

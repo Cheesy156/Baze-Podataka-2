@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vrsi" directorySegmentName="seg_0" id="2789BF53-0F26-CEE9-3E90-A4D9D8476572">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:10:07 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<sourcePk>EB9EE243-F9BA-F3ED-7D12-118B5929D338</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75DC1AF0-8CBC-691D-B5B1-1D7EA8BB1361</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6BE71A7-842C-10C6-B9B5-16B4C5C932D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

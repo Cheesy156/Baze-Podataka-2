@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="708032ED-5B88-4176-8151-AE55F78AA784" containerWithKeyObject="7AED96D2-6989-E217-1836-E0BC0DAF091A" localFKIndex="5A28C431-BFB3-86CF-0BF5-AAD3596B22A5" name="Igra_SportskiDogadjaj_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>EDAEE0CA-D36A-AFDF-8952-E24CFC2DD10F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>SportskiDogadjaj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1EBC6459-0684-670D-8F7E-8E8F1F45313A</referredTableID>
+<keyObject>B8255184-3C66-BB6B-5CF0-161A326329D2</keyObject>
+<referredKeyID>B8255184-3C66-BB6B-5CF0-161A326329D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SPD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

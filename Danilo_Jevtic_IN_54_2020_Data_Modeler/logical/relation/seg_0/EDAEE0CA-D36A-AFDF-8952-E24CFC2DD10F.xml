@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GER2" directorySegmentName="seg_0" id="EDAEE0CA-D36A-AFDF-8952-E24CFC2DD10F">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:06:02 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<sourcePk>B43EA23B-8BC9-5578-4873-6C16DBFD3253</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9BF9628-DE0B-8EBC-9B9C-20471338E3AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE60AF90-4BCC-CCF0-3205-4E2BC28D6504</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

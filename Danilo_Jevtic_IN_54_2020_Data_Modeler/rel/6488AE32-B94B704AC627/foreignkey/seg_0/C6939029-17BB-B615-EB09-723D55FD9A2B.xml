@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6939029-17BB-B615-EB09-723D55FD9A2B" containerWithKeyObject="405ADCA7-09AB-9155-7842-4D7F13284E38" localFKIndex="5F735BBC-5C6B-5720-14C9-3F46E33DCED4" name="Udarac_SlotIgra_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8833EFAB-ED3C-FF0A-8D31-39CD741E7F5D</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>SlotIgra</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>9B921A35-1AD3-AEF6-3792-0C216515422E</referredTableID>
+<keyObject>4C8D77C9-89B2-D565-CE84-B485EF5DF0AE</keyObject>
+<referredKeyID>4C8D77C9-89B2-D565-CE84-B485EF5DF0AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SLOT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

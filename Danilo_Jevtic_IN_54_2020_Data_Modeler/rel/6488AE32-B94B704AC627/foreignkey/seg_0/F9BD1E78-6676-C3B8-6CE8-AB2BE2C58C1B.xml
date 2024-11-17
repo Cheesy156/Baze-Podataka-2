@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9BD1E78-6676-C3B8-6CE8-AB2BE2C58C1B" containerWithKeyObject="A5BA489F-37F7-A739-158D-8A200773457F" localFKIndex="F3B38A5A-F55B-20C1-0A43-13871E29995D" name="Potez_Igrac_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>917B8EE5-96E1-AB19-D065-8ED132AB332B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>Igrac</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C56854F5-D9EA-622A-234F-09E3E520E516</referredTableID>
+<keyObject>605F64EA-FB85-D8F6-7A1D-CB1BBF2AD061</keyObject>
+<referredKeyID>605F64EA-FB85-D8F6-7A1D-CB1BBF2AD061</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_IGRAC,Partija_ID_PAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

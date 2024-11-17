@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED1F9A6A-B501-B7F2-0953-57308EACAA01" name="KartaskiSto">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>74051E90-958D-46CB-76AA-A2FB5747460B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KS" id="4EBD41D6-E779-9A46-A74A-8156148A63BB">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8110D1C2-D6BC-27FC-6110-1270E8567D24</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAD_VREME_KS" id="CE2893B7-B8B8-6687-9BD0-D072402BCC3D">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>08CD093A-414C-37E0-E95E-7965F2071B77</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_KS" id="8AEE74CF-1245-AF57-FC36-330228639FCA">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>C55F770B-6D84-E531-600C-EB99408B36E1</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_KS" id="09C99EC9-10F8-3BD0-78E4-E9137B55ED67">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>B71A79A6-A6CE-E0F6-D825-B6C0CAB3C8F5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Diler_ID_ZAP" id="5F345B26-AE94-9754-15DE-EAC9F3D715C5">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 03:34:06 UTC</createdTime>
+<generatorID>A3024BA5-5F56-CCAA-25ED-06C6D443D68E</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C05E9A61-B26C-5827-C490-A8992C27E6B7" referredColumn="1E41BE02-9C70-5E8C-9586-21B785D8CD0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC1CEF6E-D695-B4CE-FFFB-C3161969BDD2" name="KartaskiSto_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>2C17499C-9863-113D-BE83-CD6E810AADD1</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EBD41D6-E779-9A46-A74A-8156148A63BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="936AE1A0-CCA3-67A2-1072-2B72C2D3938C" name="KartaskiSto__IDX">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 03:34:06 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0C73E6BC-8852-EAAC-54B0-825FB9C5B4BA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5F345B26-AE94-9754-15DE-EAC9F3D715C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E2B6253-1477-D7D5-8A18-F6B110F0C68F" name="KartaskiSto_Diler_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 08:05:52 UTC</createdTime>
+<generatorID>0C73E6BC-8852-EAAC-54B0-825FB9C5B4BA</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F345B26-AE94-9754-15DE-EAC9F3D715C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

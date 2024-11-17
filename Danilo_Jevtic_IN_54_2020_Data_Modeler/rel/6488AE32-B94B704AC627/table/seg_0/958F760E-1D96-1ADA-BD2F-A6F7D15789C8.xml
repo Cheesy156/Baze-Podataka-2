@@ -1,0 +1,302 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="958F760E-1D96-1ADA-BD2F-A6F7D15789C8" name="Transakcija">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>C6BE71A7-842C-10C6-B9B5-16B4C5C932D5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRS" id="2E22D921-D4F9-15D4-81EF-BACEB7665182">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>E367A338-BFE8-DCC0-4385-99282C2E02E5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_TRS" id="BEA5373A-A377-C364-63D5-648EFE4A210A">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>F1AB3559-CD09-55CD-9941-FFC79614F757</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IZN_TRS" id="1D974A6D-81F9-2198-D54B-43CB2E69213A">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>6E8D5F63-4810-2E0A-52E7-1879C44FC5E3</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VREME_TRS" id="20D8376D-05BE-704E-5603-6CE8B23EFBBD">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>E2A1C3D2-3C0A-0FCD-BAAF-8CFB587375BC</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tiket_ID_TIK" id="169263D8-67B0-B1CF-C4EF-46EED11B651C">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>4CDE835E-976D-1C54-967F-1E2E70FBB82B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A427E7-6932-BFC7-A331-88BB3C862610" referredColumn="C08C4284-DD37-3A2F-FCAF-C4A139F1F128"/>
+</associations>
+</Column>
+<Column name="Udarac_ID_UDR" id="39B9B365-29F1-BE4C-18DC-B0BE5B38BABC">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>F4B8D4C6-A06D-9F7C-F0ED-AEA5231F397D</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F66F7D2-FCB3-D786-23E2-02913AA0F232" referredColumn="1429522F-FFE0-4297-436D-9F51D9DE84A1"/>
+</associations>
+</Column>
+<Column name="Udarac_SlotIgra_ID_SLOT" id="B5756B73-1AE2-BFC6-D157-0ED000D1E7F2">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>5164B057-AC69-66FD-E233-2667EA867789</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F66F7D2-FCB3-D786-23E2-02913AA0F232" referredColumn="40988A6A-3D29-ED2B-B58C-B0F49A9E840E"/>
+</associations>
+</Column>
+<Column name="Novcanik_ID_NOV" id="38D37886-6D72-A52A-76E2-A1216547DB28">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>306BC86D-76D0-4ED5-97EE-7EAC00F4ADA1</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C97439-3261-995B-FF3A-2CE494DA5F49" referredColumn="1BD637CF-60E8-AFCC-9B7A-61EEC6C91B36"/>
+</associations>
+</Column>
+<Column name="Novcanik_Klijent_USERNAME" id="87A88809-273A-9342-CEA5-14CC763CAC51">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>EFB934FA-6D85-35EE-3B6D-EB8AA8E4A3E9</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C97439-3261-995B-FF3A-2CE494DA5F49" referredColumn="42B22D01-2417-BE40-2544-2F9443C33C2F"/>
+</associations>
+</Column>
+<Column name="Partija_ID_PAR" id="497FFE0D-656A-D1A4-855A-2DDB49BC9AE5">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>B4D14C50-BA5D-B041-531D-72E40E6CA3D2</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC3A2328-D01E-B44C-70F4-14F8B1FCCAA7" referredColumn="7BCDDB75-DC33-893E-AC7D-8BD9BB8A2C7D"/>
+</associations>
+</Column>
+<Column name="Admin_ID_ZAP" id="68A635F9-B257-A258-29F7-CB4323C46C86">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>FEBCDA0C-8070-CBD8-E77F-651D6B60FF44</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DFFA83-795B-35B7-5F43-44811424C45E" referredColumn="873A8C36-598B-8FF2-41B5-A0CF64B989A0"/>
+</associations>
+</Column>
+<Column name="Potez_ID_POT" id="62CF8026-6E08-5D70-6461-ED29B48E16F5">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>C28D8AB4-E2A0-B65B-3C13-F591920B5F45</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Potez_Igrac_ID_IGRAC" id="16AAB4E1-9F6D-DFEA-5E62-25F2F4916770">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>3DF7F1B9-86B6-DEA4-DF6B-2FBB222A6626</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Potez_Igrac_Partija_ID_PAR" id="51FFD0A2-8CF1-C2B5-959A-6B72DC4388B6">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>96403A15-4F64-0DE5-0A73-6B8430B8AD74</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36438F89-8768-18F5-F09D-31DB6E531517" name="Transakcija_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>E39C0A57-78EC-C1F5-DEBE-431D5D08D1E1</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E22D921-D4F9-15D4-81EF-BACEB7665182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B974FF12-D613-A42B-658A-8D51D2231B19" name="Transakcija__IDX">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F4DA7188-EE27-C606-3EB6-26DE566151ED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="62CF8026-6E08-5D70-6461-ED29B48E16F5"/>
+<colUsage columnID="16AAB4E1-9F6D-DFEA-5E62-25F2F4916770"/>
+<colUsage columnID="51FFD0A2-8CF1-C2B5-959A-6B72DC4388B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62378EED-7305-99CD-DE12-98F69278B74B" name="Transakcija__IDXv1">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DCE67CF0-79BF-0976-8DC6-ABBC083AC7E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="39B9B365-29F1-BE4C-18DC-B0BE5B38BABC"/>
+<colUsage columnID="B5756B73-1AE2-BFC6-D157-0ED000D1E7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FACEF597-70B3-5584-4E4A-B5D5FB6837F2" name="Transakcija_Novcanik_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8730FFA6-D82C-0882-CA33-B6F056198773</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D37886-6D72-A52A-76E2-A1216547DB28"/>
+<colUsage columnID="87A88809-273A-9342-CEA5-14CC763CAC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99DA5805-8F57-9436-1A23-0BAC8403A3E0" name="Transakcija_Udarac_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>DCE67CF0-79BF-0976-8DC6-ABBC083AC7E5</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B9B365-29F1-BE4C-18DC-B0BE5B38BABC"/>
+<colUsage columnID="B5756B73-1AE2-BFC6-D157-0ED000D1E7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82E5D0C0-E1CA-813E-383A-EBEB0CEEEB24" name="Transakcija_Partija_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>45A153FD-02F9-A48E-19E6-2DEEE020A09C</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="497FFE0D-656A-D1A4-855A-2DDB49BC9AE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7774317A-81DA-DF87-1328-9ACF3368A44E" name="Transakcija_Tiket_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>2789BF53-0F26-CEE9-3E90-A4D9D8476572</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169263D8-67B0-B1CF-C4EF-46EED11B651C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0870C49D-37C8-0820-2EB2-29673C98C410" name="Transakcija_Admin_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 08:05:52 UTC</createdTime>
+<generatorID>0870FBE3-C68D-E3B7-437A-AE3553780039</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A635F9-B257-A258-29F7-CB4323C46C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

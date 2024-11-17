@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AED96D2-6989-E217-1836-E0BC0DAF091A" name="Igra">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>FE60AF90-4BCC-CCF0-3205-4E2BC28D6504</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KVOTA_IGR" id="32E16515-200F-96D5-1DFA-500B882485BA">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>18738E3D-EB9E-F0EB-AA37-ED76F643B3EF</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_IGR" id="E6A32347-BCED-46CF-1877-AB70EF1D5563">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>D879E789-5E9C-BDDB-1727-F1CEB976038D</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klijent_USERNAME" id="02607B3A-EEEC-1978-3639-36E388111B88">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>97CE483B-F3E4-0CD1-EC98-64B6C6963680</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7514727F-7641-C929-C9E2-3FF00BED2B8C" referredColumn="672B0D80-C55A-95F2-1AB3-0E3D825D7439"/>
+</associations>
+</Column>
+<Column name="SportskiDogadjaj_ID_SPD" id="E8622BF2-909A-FE04-704A-D0F66487187C">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>BFA763DA-7A73-173F-E985-0DF1B2494B26</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708032ED-5B88-4176-8151-AE55F78AA784" referredColumn="BF48AE24-13A5-6895-6915-3F7E4FE70084"/>
+</associations>
+</Column>
+<Column name="Tiket_ID_TIK" id="80A8065E-867C-F384-AE09-0D344C8AADC1">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>B1C0DBB3-2E62-C7F6-0612-083F67DD4F8F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93605F47-AA56-F976-5BAB-894243009F89" referredColumn="C08C4284-DD37-3A2F-FCAF-C4A139F1F128"/>
+</associations>
+</Column>
+<Column name="TIP_IGR" id="A95A9EFA-0DDE-D4CF-E2E6-BDC62D40C673">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 04:25:48 UTC</createdTime>
+<generatorID>B6EF1346-D08D-0E2C-1329-C55FE608F9BB</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRED_IGR" id="7CC161AF-AB67-61D3-AF7D-28F52701153C">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 04:25:48 UTC</createdTime>
+<generatorID>4B879B34-9B58-AE2C-C83B-DB350F279DD8</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULOG_IGR" id="1FD662B8-F184-D69C-188A-74AB6BDF927B">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 07:40:13 UTC</createdTime>
+<generatorID>BD8995C6-9549-9183-848D-056EB9C3CA1F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1802ABA4-6B37-3D73-2125-A25574A4D65C" name="Igra_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>5FC0F180-DE4C-4A41-8A01-6435A7B871FF</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02607B3A-EEEC-1978-3639-36E388111B88"/>
+<colUsage columnID="E8622BF2-909A-FE04-704A-D0F66487187C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E7666A-67C8-67CF-7D60-BE76D08CF518" name="Igra_Klijent_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>F401805D-BD56-34F2-E659-0D353F56B81D</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02607B3A-EEEC-1978-3639-36E388111B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A28C431-BFB3-86CF-0BF5-AAD3596B22A5" name="Igra_SportskiDogadjaj_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>EDAEE0CA-D36A-AFDF-8952-E24CFC2DD10F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8622BF2-909A-FE04-704A-D0F66487187C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02E86A62-2972-9AC0-4418-CEFF9B763462" name="Igra_Tiket_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>908E4BFF-40E0-B7D6-3B4F-CAB804C83C8F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A8065E-867C-F384-AE09-0D344C8AADC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

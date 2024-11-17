@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C56854F5-D9EA-622A-234F-09E3E520E516" name="Igrac">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8F581880-229D-42D5-03C6-AF364E13D694</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IGRAC" id="912C390D-21EE-52CF-20C0-F151F212D6D2">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>8FBBCCF5-5606-14BF-A884-81E88FA2DF48</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partija_ID_PAR" id="B2A2BD83-FC91-0278-5758-EEF6A014EEB4">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>9E8AACFB-B274-2536-C003-B450861D5A78</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="675E4D85-43DB-08B9-C699-0E976FB4CFDD" referredColumn="7BCDDB75-DC33-893E-AC7D-8BD9BB8A2C7D"/>
+</associations>
+</Column>
+<Column name="Klijent_USERNAME" id="3CF4C3F2-926F-C138-E74F-6AE1291CECEF">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>68E5234E-62E1-F29F-0B1A-E56D593C8689</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC5AF924-4730-DCAF-E389-CCD835AA56D3" referredColumn="672B0D80-C55A-95F2-1AB3-0E3D825D7439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="605F64EA-FB85-D8F6-7A1D-CB1BBF2AD061" name="Igrac_PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>239CC5E3-6BF7-FFFD-2544-44C8D74A3A7A</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="912C390D-21EE-52CF-20C0-F151F212D6D2"/>
+<colUsage columnID="B2A2BD83-FC91-0278-5758-EEF6A014EEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE378EA5-4AAC-7DE0-6CF8-C58A1C3E2172" name="Igrac_Klijent_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>4AFF11A1-D523-14FE-1EC9-2BBEC8536D28</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CF4C3F2-926F-C138-E74F-6AE1291CECEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDEB4B7D-0CCB-5730-31A5-6588DCDA9845" name="Igrac_Partija_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>9366F4B6-0170-F113-E375-43900B697E8B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A2BD83-FC91-0278-5758-EEF6A014EEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

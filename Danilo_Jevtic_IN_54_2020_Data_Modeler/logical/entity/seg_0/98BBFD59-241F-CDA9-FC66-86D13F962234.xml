@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98BBFD59-241F-CDA9-FC66-86D13F962234" name="Potez">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:44:41 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_POT" id="8B1AEEF6-3AE3-0046-4CD1-3C16BBBD1A5E">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:44:47 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AKCIJA_POT" id="DD64E2AB-DAEA-9422-D77D-D417B138F5E9">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:44:47 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUM_NOV_POT" id="3D445037-070C-6116-34A7-CF41493ED2E7">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:45:24 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KARTE_POT" id="9165755A-A3B0-60EC-7D97-6E4A62435D98">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:46:40 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_IGRAC" id="60DB9C33-D25D-FEC9-DE22-2120EA360283">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:47:24 UTC</createdTime>
+<generatorID>917B8EE5-96E1-AB19-D065-8ED132AB332B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<referedAttribute>8FBBCCF5-5606-14BF-A884-81E88FA2DF48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAR" id="9D38458E-EC10-3B17-3D85-DCC59A540D05">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:47:24 UTC</createdTime>
+<generatorID>917B8EE5-96E1-AB19-D065-8ED132AB332B</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<referedAttribute>9E8AACFB-B274-2536-C003-B450861D5A78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TRS" id="0F4DEFDC-988F-936A-04C2-176EF0A20145">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:51:47 UTC</createdTime>
+<generatorID>F4DA7188-EE27-C606-3EB6-26DE566151ED</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E367A338-BFE8-DCC0-4385-99282C2E02E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC5AE13D-9914-623C-E007-529883B2E86E" name="Potez PK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:44:56 UTC</createdTime>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6488AE32-D343-B6C8-E7CB-B94B704AC627" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B1AEEF6-3AE3-0046-4CD1-3C16BBBD1A5E</attributeRef>
+<attributeRef>60DB9C33-D25D-FEC9-DE22-2120EA360283</attributeRef>
+<attributeRef>9D38458E-EC10-3B17-3D85-DCC59A540D05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

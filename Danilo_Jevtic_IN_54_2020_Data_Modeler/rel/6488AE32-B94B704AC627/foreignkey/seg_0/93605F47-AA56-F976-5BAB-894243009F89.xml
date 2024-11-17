@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93605F47-AA56-F976-5BAB-894243009F89" containerWithKeyObject="7AED96D2-6989-E217-1836-E0BC0DAF091A" localFKIndex="02E86A62-2972-9AC0-4418-CEFF9B763462" name="Igra_Tiket_FK">
+<createdBy>danil</createdBy>
+<createdTime>2024-01-13 02:55:39 UTC</createdTime>
+<generatorID>908E4BFF-40E0-B7D6-3B4F-CAB804C83C8F</generatorID>
+<ownerDesignName>Danilo_Jevtic_IN_54_2020_Data_Modeler</ownerDesignName>
+<referredTableLongName>Tiket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5EBB4E41-ECF3-80CD-AC36-FBF8C867DE10</referredTableID>
+<keyObject>A66C980F-CDC7-189E-20B5-DC2886453E5D</keyObject>
+<referredKeyID>A66C980F-CDC7-189E-20B5-DC2886453E5D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
